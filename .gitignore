@@ -1,0 +1,27 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables
+.env
+
+# Uploads and Data
+uploads/*
+!uploads/.gitkeep
+
+# IDE Settings
+.vscode/
+.idea/
+.gemini/
+.agents/
+
+# System Files
+Thumbs.db
+.DS_Store
