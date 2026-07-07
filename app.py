@@ -1,3 +1,11 @@
+"""
+Gemini PDF Q&A Bot - Flask Web Server
+
+This module runs the Flask application serving the web interface. It handles uploading
+PDF documents, initializing/resetting the RAG pipeline, and routing user chat messages
+to the QA bot.
+"""
+
 import os
 from flask import Flask, request, jsonify, render_template
 import qabot

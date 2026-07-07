@@ -1,3 +1,12 @@
+"""
+Gemini PDF Q&A Bot - RAG Pipeline Implementation
+
+This module contains the backend logic for the Retrieval-Augmented Generation (RAG) system.
+It processes PDF documents, chunks the text, computes semantic embeddings using Hugging Face,
+saves them in a Chroma vector database, and queries Google Gemini (gemini-2.5-flash) to
+provide context-grounded answers.
+"""
+
 import os
 # pyrefly: ignore [missing-import]
 from dotenv import load_dotenv
